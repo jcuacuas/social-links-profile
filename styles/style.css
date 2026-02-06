@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Inter;
+    src: url(../assets/fonts/Inter-VariableFont_slnt,wght.ttf);
+}
+
+:root {
+    --color-white: hsl(0, 0%, 100%);
+    --color-green: hsl(75, 94%, 57%);
+
+    --color-gray-700: hsl(0, 0%, 20%);
+    --color-gray-800: hsl(0, 0%, 12%);
+    --color-gray-900: hsl(0, 0%, 8%);
+
+    /* SIZES */
+    --size-xxs: 0.5rem;
+    --size-xs: 0.75rem;
+    --size-sm: 0.85rem;
+    --size-base: 1rem;
+    --size-lg: 1.125rem;
+    --size-xl: 1.25rem;
+    --size-2xl: 1.5rem;
+    --size-3xl: 1.875rem;
+    --size-4xl: 2.25rem;
+    --size-5xl: 3rem;
+    --size-6xl: 3.75rem;
+    --size-7xl: 4.5rem;
+    --size-8xl: 6rem;
+    --size-9xl: 8rem;
+    --size-10xl: 10rem;
+}
+
+* {
+    margin: 0;
+    line-height: calc(1em + 0.5rem);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Inter;
+    background-color: var(--color-gray-900);
+    color: var(--color-white);
+    font-size: 14px;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+
+button {
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: inherit;
+}

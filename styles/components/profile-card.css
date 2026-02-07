@@ -3,21 +3,20 @@
     border-radius: 10px;
     text-align: center;
     width: 23rem;
-    height: 39rem;
     margin: 10rem auto 0;
     padding: 3rem;
 }
 
 .profile-card___img {
     border-radius: 50%;
-    width: 90px;
-    height: 90px;
+    width: 95px;
+    height: 95px;
     margin: 0 auto 2rem;
 }
 
 .profile-card___name {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 0.5rem;
 }
 
@@ -28,12 +27,12 @@
 
 .profile-card___bio {
     font-weight: 400;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .profile-card___location,
 .profile-card___bio {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .profile-card___button {
@@ -41,7 +40,7 @@
     border-radius: 7px;
     font-weight: 700;
     width: 100%;
-    height: 3rem;
+    height: 2.5rem;
     margin-bottom: 1rem;
     transition: background-color 0.3s, color 0.3s, opacity 0.3s;
 }
@@ -62,8 +61,7 @@
 @media (max-width: 375px) {
     .profile-card {
         width: 21rem;
-        height: 36.5rem;
-        margin: 8rem auto 0;
+        margin: 7rem auto 0;
         padding: 1.5rem;
     }
 }

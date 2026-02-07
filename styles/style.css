@@ -39,7 +39,7 @@ html {
 }
 
 body {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     background-color: var(--color-gray-900);
     color: var(--color-white);
     font-size: 14px;
